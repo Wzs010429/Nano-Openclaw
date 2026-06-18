@@ -1,0 +1,38 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Runtime state and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+
+# Editor and OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Accidental scratch file in this checkout
+/None
